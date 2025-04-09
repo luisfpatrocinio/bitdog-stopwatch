@@ -38,3 +38,13 @@ void drawRectangle(int x, int y, int width, int height)
 {
     ssd1306_draw_square(&display, x, y, width, height);
 }
+
+void drawEmptyRectangle(int x, int y, int width, int height)
+{
+    ssd1306_draw_empty_square(&display, x, y, width, height);
+}
+
+void drawPixel(int x, int y)
+{
+    ssd1306_draw_pixel(&display, x, y);
+}

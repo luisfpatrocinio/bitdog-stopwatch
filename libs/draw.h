@@ -25,5 +25,8 @@ void drawLine(int x1, int y1, int x2, int y2);
 
 void drawClearRectangle(int x, int y, int width, int height);
 void drawRectangle(int x, int y, int width, int height);
+void drawEmptyRectangle(int x, int y, int width, int height);
+
+void drawPixel(int x, int y);
 
 #endif // DRAW_H
